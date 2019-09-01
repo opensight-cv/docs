@@ -1,0 +1,6 @@
+theme:
+  name: 'material'
+site_name: OpenSight
+nav: 
+  - Home: index.md
+  - Quick Start: quickstart.md
