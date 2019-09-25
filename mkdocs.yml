@@ -4,3 +4,6 @@ site_name: OpenSight
 nav: 
   - Home: index.md
   - Quick Start: quickstart.md
+  - Creating Modules: modules.md
+markdown_extensions:
+  - codehilite
