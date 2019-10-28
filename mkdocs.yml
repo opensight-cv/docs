@@ -4,7 +4,7 @@ theme:
   favicon: 'assets/favicon.ico'
   palette:
     primary: teal
-    accent: indigo 
+    accent: teal
   logo:
     icon: 'remove_red_eye'
 repo_name: opensight-cv/opensight
@@ -13,17 +13,18 @@ edit_uri: https://github.com/opensight-cv/docs/edit/master/docs
 
 nav: 
   - Home: index.md
-  - Getting Started:
-    - (TODO) Hardware: getting-started/hardware.md
-    - (TODO) Installation: getting-started/installation.md
-    - (TODO) Upgrading: getting-started/upgrading.md
-  - Modules:
-    - (TODO) Contours: modules/contours.md 
-    - (TODO) Video IO: modules/videoio.md 
-    - (TODO) Color Operations: modules/color.md 
-    - (TODO) Mask Operations: modules/mask.md 
-    - (TODO) Drawing Operations: modules/draw.md 
-    - (TODO) NetworkTables: modules/nt.md 
+  # - Getting Started:
+    # - (TODO) Hardware: getting-started/hardware.md
+    # - (TODO) Installation: getting-started/installation.md
+    # - (TODO) Upgrading: getting-started/upgrading.md
+  # - Modules:
+    # - (TODO) Contours: modules/contours.md 
+    # - (TODO) Video IO: modules/videoio.md 
+    # - (TODO) Color Operations: modules/color.md 
+    # - (TODO) Mask Operations: modules/mask.md 
+    # - (TODO) Drawing Operations: modules/draw.md 
+    # - (TODO) NetworkTables: modules/nt.md 
+  - Planned Pages: planned.md
   - Advanced:
     - Creating Modules: creating-modules.md
 
