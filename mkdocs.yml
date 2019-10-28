@@ -1,9 +1,58 @@
+site_name: OpenSight
 theme:
   name: 'material'
-site_name: OpenSight
+  favicon: 'assets/favicon.ico'
+  palette:
+    primary: teal
+    accent: indigo 
+  logo:
+    icon: 'remove_red_eye'
+repo_name: opensight-cv/opensight
+repo_url: https://github.com/opensight-cv/opensight
+edit_uri: https://github.com/opensight-cv/docs/edit/master/docs
+
 nav: 
   - Home: index.md
-  - Quick Start: quickstart.md
-  - Creating Modules: modules.md
+  - Getting Started:
+    - Hardware: getting-started/hardware.md
+    - Installation: getting-started/installation.md
+    - Upgrading: getting-started/upgrading.md
+  - Modules:
+    - Contours: modules/contours.md 
+    - Video IO: modules/videoio.md 
+    - Color Operations: modules/color.md 
+    - Mask Operations: modules/mask.md 
+    - Drawing Operations: modules/draw.md 
+    - NetworkTables: modules/nt.md 
+  - Advanced:
+    - Creating Modules: creating-modules.md
+
 markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - footnotes
   - codehilite
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+copyright: 'Copyright &copy; 2019. MIT License'
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/opensight-cv'

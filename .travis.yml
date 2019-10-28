@@ -3,7 +3,7 @@ language: python
 python: 3.7
 
 install:
-  - pip3 install mkdocs mkdocs-material pygments
+  - pip3 install -r requirements.txt
 
 script: true
 
@@ -21,4 +21,3 @@ deploy:
   on:
     branch: 
       - master
-      - travis-dev
