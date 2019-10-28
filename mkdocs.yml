@@ -14,16 +14,16 @@ edit_uri: https://github.com/opensight-cv/docs/edit/master/docs
 nav: 
   - Home: index.md
   - Getting Started:
-    - Hardware: getting-started/hardware.md
-    - Installation: getting-started/installation.md
-    - Upgrading: getting-started/upgrading.md
+    - (TODO) Hardware: getting-started/hardware.md
+    - (TODO) Installation: getting-started/installation.md
+    - (TODO) Upgrading: getting-started/upgrading.md
   - Modules:
-    - Contours: modules/contours.md 
-    - Video IO: modules/videoio.md 
-    - Color Operations: modules/color.md 
-    - Mask Operations: modules/mask.md 
-    - Drawing Operations: modules/draw.md 
-    - NetworkTables: modules/nt.md 
+    - (TODO) Contours: modules/contours.md 
+    - (TODO) Video IO: modules/videoio.md 
+    - (TODO) Color Operations: modules/color.md 
+    - (TODO) Mask Operations: modules/mask.md 
+    - (TODO) Drawing Operations: modules/draw.md 
+    - (TODO) NetworkTables: modules/nt.md 
   - Advanced:
     - Creating Modules: creating-modules.md
 
