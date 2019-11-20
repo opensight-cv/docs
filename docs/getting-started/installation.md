@@ -48,7 +48,7 @@ Currently, OpenSight is only directly supported on Linux. It should still work o
 If you are running a non-Debian derivative system (eg. anything other than Debian, Ubuntu, or Mint), you will need to install your distribution's version of the following:
 
 ```
-build-essential bzip2 git curl tar python3.7 python3-dev python3.7-dev python3-pip python3-venv
+build-essential git curl python3.7 python3-dev python3.7-dev python3-pip python3-venv
 ```
 
 Once you have done this, or if you are running a Debian derivative, simply run this command to create an OpenSight instance in your current directory:
