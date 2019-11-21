@@ -13,11 +13,11 @@ edit_uri: https://github.com/opensight-cv/docs/edit/master/docs
 
 nav: 
   - Home: index.md
-  - Getting Started:
-    # - (TODO) Hardware: getting-started/hardware.md
-    - Installation: getting-started/installation.md
-    - Upgrading: getting-started/upgrading.md
-    - Quick Start: getting-started/quickstart.md
+  - Quick Start:
+    - Hardware: quickstart/hardware.md
+    - Installation: quickstart/installation.md
+    - Upgrading: quickstart/upgrading.md
+    - Getting Started: quickstart/getting-started.md
   # - Modules:
     # - Contours: modules/contours.md 
     # - Video IO: modules/videoio.md 
@@ -25,11 +25,12 @@ nav:
     # - Mask Operations: modules/mask.md 
     # - Drawing Operations: modules/draw.md 
     # - NetworkTables: modules/nt.md 
-  - Planned Pages: planned.md
   - Module Development:
     - Introduction: module-dev/intro.md
     - Module Structure: module-dev/structure.md
-  - Glossary: glossary.md
+    - Glossary: module-dev/glossary.md
+  - Roadmap and Contributing: roadmap.md
+  - Planned Pages: planned.md
 
 markdown_extensions:
   - toc:

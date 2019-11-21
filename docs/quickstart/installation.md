@@ -10,7 +10,7 @@
 * For the drive, select your Micro SD card.
 * Click "Flash".
 
-After this finishes, you can put your Micro SD card back into your Pi. OpenSight should now be running! Continue to the [Quick Start](quickstart.md) page.
+After this finishes, you can put your Micro SD card back into your Pi. OpenSight should now be running! You can continue to the [Getting Started](getting-started.md) page.
 
 If you have any issues, please join our [Discord](https://discord.gg/hPqpdsK), let us know the issue in the #help channel and we'll help you troubleshoot.
 
@@ -39,6 +39,7 @@ mkdir -p packages
 tar xf opsi-packages-*.tar.gz -C packages
 sudo apt install -y ./packages/deps/*.deb
 rm -rf /tmp/opsi/
+reboot
 ```
 
 ## Installing on other systems
