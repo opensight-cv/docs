@@ -1,4 +1,4 @@
-OpenSight is primarily targets the Raspberry Pi. However, it can be run on numerous different setups. OpenSight supports all cameras. If you have any compatibility issues with any coprocessor or camera, come to [our Discord](https://discord.gg/hPqpdsK).
+OpenSight primarily targets the Raspberry Pi, however, it can be run on numerous different setups. OpenSight supports all cameras. If you have any compatibility issues with any coprocessor or camera, come to [our Discord](https://discord.gg/hPqpdsK).
 
 ## Hardware Configurations
 
