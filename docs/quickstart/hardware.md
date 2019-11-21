@@ -28,10 +28,11 @@ Here are some recommended configurations at different price points. Each configu
 |------------------------------------|-----------------------------------|--------|
 | Raspberry Pi Zero                  | https://adafruit.com/product/2885 | $5.00  |
 | Raspberry Pi Zero Case             | https://adafruit.com/product/3252 | $4.75  |
+| Micro USB to Ethernet              | https://amazon.com/dp/B07QYFS3T1  | $7.99
 | Arducam 5                          | https://amazon.com/dp/B012V1HEP4  | $12.99 |
 | 16GB MicroSD Card                  | https://amazon.com/dp/B073K14CVB  | $5.79  |
 | HOMREE DC 12V to DC 5V (Micro USB) | https://amazon.com/dp/B01MEESLZ6  | $9.99  |
-| Total                              |                                   | $38.52 |
+| Total                              |                                   | $46.51 |
 
 #### NVIDIA Jetson Nano <small>120+ FPS @ 320x240</small>*
 
