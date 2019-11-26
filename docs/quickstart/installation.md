@@ -1,3 +1,6 @@
+Depending on what system you are trying to install on, the process may differ. If you are installing on Raspberry Pi, go to the [appropriate section](#installing-on-raspberry-pi). If you are trying to install OpenSight on a different coprocessor, such as the Jetson Nano, you can find the process [here](#installing-on-debian-arm-systems).
+Currently, OpenSight is only directly supported on Linux. It should still work on Windows or MacOS, however the process to do so is far too elaborate to explain here (requries compiling multiple Python libraries). To install on any other Linux system, you can follow the [other systems installation](#installing-on-other-systems).
+
 ## Installing on Raspberry Pi
 
 !!! note
@@ -16,9 +19,9 @@ If you have any issues, please join our [Discord](https://discord.gg/hPqpdsK), l
 
 ## Installing on Debian ARM systems
 
-If you are running a Debian ARM based system, you can use the same packages generated for the Raspberry Pi. If the output of `dpkg-architecture -q DEB_BUILD_ARCH` is `armhf`, you can use the following set of instructions. Types of systems that meet this requirement would be:
+You must install Debian on your coprocessor in order to continue with this section. If you are running a Debian ARM based system, you can use the same packages generated for the Raspberry Pi. If the output of `dpkg-architecture -q DEB_BUILD_ARCH` is `armhf`, you can use the following set of instructions. Types of systems that meet this requirement would be:
 
-* Raspberry Pi
+* Raspberry Pi (without erasing anything on your current Raspbian installation)
 * Jetson Nano
 * Many coprocessors
 
@@ -41,10 +44,11 @@ sudo apt install -y ./packages/deps/*.deb
 rm -rf /tmp/opsi/
 reboot
 ```
+Once your coprocessor restats, OpenSight should now be running! You can continue to the [Getting Started](getting-started.md) page.
+
 
 ## Installing on other systems
 
-Currently, OpenSight is only directly supported on Linux. It should still work on Windows or MacOS, however the process to do so is far too elaborate to explain here (requries compiling multiple Python libraries).
 
 If you are running a non-Debian derivative system (eg. anything other than Debian, Ubuntu, or Mint), you will need to install your distribution's version of the following:
 
@@ -65,6 +69,8 @@ or
 ```
 curl https://opensight-cv.github.io/install-opsi.sh | bash
 ```
+
+After you do so, you should be able to `cd` into the `opensight` folder and run the script: `./run.sh`.
 
 !!! warning
     Please only run the one line command if you understand the security implications of it. We recommend you inspect the installation script to ensure it is safe.

@@ -1,5 +1,7 @@
 # Glossary
 
+## Work in progress.
+
 This page contains a list of the words you may seen used in these documents or in disucssion.
 
 
