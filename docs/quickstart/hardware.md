@@ -16,11 +16,12 @@ Here are some recommended configurations at different price points. Each configu
 
 | Item                             | Link                             | Price  |
 |----------------------------------|----------------------------------|--------|
-| Raspberry Pi 4 (1GB) + Case      | https://amazon.com/dp/B07TD43PDZ | $38.40 |
+| Raspberry Pi 4 (1GB RAM)         | https://amazon.com/dp/B07TD43PDZ | $38.40 |
+| Raspberry Pi 4 Case              | https://amazon.com/dp/B07W3ZMVP1 | $8.99  |
 | Arducam 5                        | https://amazon.com/dp/B012V1HEP4 | $12.99 |
 | 16GB MicroSD Card                | https://amazon.com/dp/B073K14CVB | $5.79  |
 | HOMREE DC 12V to DC 5V (USB-C)   | https://amazon.com/dp/B07ZQB6S3L | $10.90 |
-| Total                            |                                  | $68.08 |
+| Total                            |                                  | $77.07 |
 
 #### Raspberry Pi Zero <small>20-30 FPS @ 320x240</small>*
 
