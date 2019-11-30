@@ -30,7 +30,18 @@ The status indicator is at the bottom right of the nodetree interface. Here, you
 
 ## Settings
 
-The settings menu is where the system configuration is located, as compared to node-level configuration. Most of the configuration options are simple, however it is important to note that the `Use Static IP` only pertains to searching for the roboRIO (using static rather than mDNS).
+The settings menu is where the system configuration is located, as compared to node-level configuration.
+
+### Network Config
+
+**Static IP**
+
+Currently, this indicates whether your roboRIO network uses a static IP system (eg. access your roboRIO at 10.TE.AM.2). A proper static IP setting mechanism is planned for update v0.2.0.
+
+**Server Mode**
+
+If you aren't on a roboRIO network and want to access NetworkTables, you can enable "Server" mode. In Shuffleboard settings you can set the "Server" to the IP of your OpenSight instance (eg. opensight.local). If you are on a roboRIO network, this should always be "Client".
+
 
 !!! note
     Some options, such as system restart options and the updater are only available on the Raspberry Pi or other ARM systems.

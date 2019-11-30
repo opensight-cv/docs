@@ -2,7 +2,7 @@ Depending on which version of OpenSight you are using, you may or may not be abl
 
 ![Image of the updater in settings](/assets/images/update.png)
 
-The current version number is viewable in the bottom right of the settings page.
+The current version number is viewable in the bottom left of the settings page.
 
 ## Upgrading on Raspberry Pi
 
