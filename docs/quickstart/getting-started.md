@@ -48,9 +48,9 @@ If you aren't on a roboRIO network and want to access NetworkTables, you can ena
 
 ![Image of the settings menu](/assets/images/settings.png)
 
-## Hooks
+## Viewing the Camera Stream
 
-Each module can have a hook. A hook is webpage which allows a module or node to be viewable in some way. For example, you can view the stream of every camera server by clicking the opsi.videio hook.
+You can view the Camera Stream through a part in OpenSight known as a "Hook". Each module can have its own hook. A hook is webpage which allows a module or node to be viewable in some way. Camera Server uses a hook which allows you to view the stream of every camera server by clicking the opsi.videio hook. NetworkTables will also have its own hook soon.
 
-![Errored status indiactor](/assets/images/hooks.png)
+![Hook menu](/assets/images/hooks.png)
 

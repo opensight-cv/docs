@@ -7,33 +7,24 @@ The Raspberry Pi (and other coprocessors, such as the Jetson Nano) require 5V, s
 
 Here are some recommended configurations at different price points. Each configuration inculdes a either typical or estimated performance. Any configurations with an estimated performance will be marked with a \*. If you have any of these configurations and want to submit performance figures, we would greatly appreciate it!
 
-*Most product links are Amazon links for consistency, however many of these parts can be found cheaper from their manufactuer.*
+*Most product links are Amazon links for consistency, however many of these parts can be found cheaper from their manufactuer or other websites.*
 
 !!! warning
     Please note that we have not tested all of these items. We are not specifically recommending any of these products. We are not liable for any non-working configurations or for any damage you do to any components.
+
+#### OscarEye
+
 
 #### Raspberry Pi 4 <small>85 FPS @ 320x240</small>
 
 | Item                             | Link                             | Price  |
 |----------------------------------|----------------------------------|--------|
-| Raspberry Pi 4 (1GB RAM)         | https://amazon.com/dp/B07TD43PDZ | $38.40 |
+| Raspberry Pi 4 (1GB RAM)         | https://amazon.com/dp/B07TD43PDZ | $41.99 |
 | Raspberry Pi 4 Case              | https://amazon.com/dp/B07W3ZMVP1 | $8.99  |
 | Arducam 5                        | https://amazon.com/dp/B012V1HEP4 | $12.99 |
 | 16GB MicroSD Card                | https://amazon.com/dp/B073K14CVB | $5.79  |
 | HOMREE DC 12V to DC 5V (USB-C)   | https://amazon.com/dp/B07ZQB6S3L | $10.90 |
-| Total                            |                                  | $77.07 |
-
-#### Raspberry Pi Zero <small>20-30 FPS @ 320x240</small>*
-
-| Item                               | Link                              | Price  |
-|------------------------------------|-----------------------------------|--------|
-| Raspberry Pi Zero                  | https://adafruit.com/product/2885 | $5.00  |
-| Raspberry Pi Zero Case             | https://adafruit.com/product/3252 | $4.75  |
-| Micro USB to Ethernet              | https://amazon.com/dp/B07QYFS3T1  | $7.99
-| Arducam 5                          | https://amazon.com/dp/B012V1HEP4  | $12.99 |
-| 16GB MicroSD Card                  | https://amazon.com/dp/B073K14CVB  | $5.79  |
-| HOMREE DC 12V to DC 5V (Micro USB) | https://amazon.com/dp/B01MEESLZ6  | $9.99  |
-| Total                              |                                   | $46.51 |
+| Total                            |                                  | **$80.66** |
 
 #### NVIDIA Jetson Nano <small>120+ FPS @ 320x240</small>*
 
@@ -49,6 +40,12 @@ Here are some recommended configurations at different price points. Each configu
 ## General Setup
 
 To connect any coprocessor to the robot, you will need an [Ethernet cable](https://amazon.com/dp/B00EUHRLF6). Plug the Ethernet cable into the extra port on the radio to connect your coprocessor to the robot.
+
+#### Using a Pi Cam
+
+If you are using a Pi Cam (such as the Arducam 5) you will need to connect your Pi Cam to the port boxed in PURPLE on the image. **Do not** connect it to the port boxed in BLUE on the image.
+
+![Pi Camera location](/assets/images/picam.png)
 
 ## LEDs
 
