@@ -1,4 +1,4 @@
-The ColorPps module contains nodes used to manipulate an image directly. These nodes can be found under the opsi-colorops tab.
+The ColorOps module contains nodes used to manipulate an image directly. These nodes can be found under the opsi-colorops tab.
 
 ![ColorOps Module Add Nodes Image](../assets/images/modules/colorops/module_colorops.png)
 
