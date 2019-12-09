@@ -11,20 +11,20 @@ repo_name: opensight-cv/opensight
 repo_url: https://github.com/opensight-cv/opensight
 edit_uri: https://github.com/opensight-cv/docs/edit/master/docs
 
-nav: 
+nav:
   - Home: index.md
   - Quick Start:
     - Hardware: quickstart/hardware.md
     - Installation: quickstart/installation.md
     - Upgrading: quickstart/upgrading.md
     - Getting Started: quickstart/getting-started.md
-  # - Modules:
-    # - Contours: modules/contours.md 
-    # - Video IO: modules/videoio.md 
-    # - Color Operations: modules/color.md 
-    # - Mask Operations: modules/mask.md 
-    # - Drawing Operations: modules/draw.md 
-    # - NetworkTables: modules/nt.md 
+  - Modules:
+    - Contours: modules/contours.md
+    # - Video IO: modules/videoio.md
+    - Color Operations: modules/color.md
+    # - Mask Operations: modules/mask.md
+    - Drawing Operations: modules/draw.md
+    # - NetworkTables: modules/nt.md
   - Module Development:
     - Introduction: module-dev/intro.md
     - Module Structure: module-dev/structure.md
