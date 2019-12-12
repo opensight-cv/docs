@@ -6,19 +6,19 @@ The Mask module contains nodes used to manipulate masks (which take the form of 
 
 ![Dilate Node Image](../assets/images/modules/mask/node_dilate.png)
 
-Takes a mask (`imgBW`) and extends all of its borders by the number of pixels defined in the `size` setting.
+Takes a mask (`imgBW`) and extends all of its borders by the number of pixels defined in the `size` setting. Commonly used to reduce noise in an image, along with [Erode](#erode).
 
 ## Erode
 
 ![Erode Node Image](../assets/images/modules/mask/node_erode.png)
 
-Takes a mask (`imgBW`) and removes the number of pixels around all its borders as defined in the `size` setting.
+Takes a mask (`imgBW`) and removes the number of pixels around all its borders as defined in the `size` setting. Commonly used to reduce noise in an image, along with [Dilate](#dilate).
 
 ## Invert
 
 ![Invert Node Image](../assets/images/modules/mask/node_invert.png)
 
-Inverts the mask such that all white areas become black and vise versa, essentially inverting the mask's effect.
+Inverts the mask such that all white areas become black and vise versa, effectively inverting the mask's effect.
 
 ## Join
 

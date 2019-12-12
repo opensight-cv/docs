@@ -12,4 +12,4 @@ Outputs an `img` of what a camera sees. The dropdown setting of the node control
 
 ![CameraServer Node Image](../assets/images/modules/videoio/node_camera_server.png)
 
-The CameraServer node takes an `img` input and outputs it via the CameraServer protocol so that it can be viewed on the driver station.
+The CameraServer node takes an `img` input and outputs it to a stream so that it can be viewed on the driver station. You can see the Camera Stream on the Dashboard/Shuffleboard, or you can go to the hooks menu and click `opsi.videoio` and select the CameraServer.

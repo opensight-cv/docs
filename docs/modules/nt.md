@@ -4,6 +4,8 @@ The NetworkTables (NT) module contains nodes used to output data to NetworkTable
 
 To access values from NetworkTables, use the following example code snippets for Java and C++. Replace the values `key` and `table` based off of the options in the node, and `type` based off what type of value you are outputting. E.g. `boolean`, `int`, `double`, etc.
 
+Basic accessing of NetworkTables in Java and C++. See the WPILib docs ([Java](https://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/networktables/NetworkTable.html)/[C++](https://first.wpi.edu/FRC/roborio/release/docs/cpp/classnt_1_1NetworkTable.html)) for more information.
+
 Java
 ```java
 NetworkTableInstance.getDefault().getTable("<table>").getEntry("<key>").get<Type>(<default>);
@@ -27,3 +29,7 @@ Takes a coordinate value and outputs it to NetworkTables. These values can be fo
 ![PutNT Node Image](../assets/images/modules/nt/node_put_nt.png)
 
 The PutNT node puts a value of any type, not just a coordinate, to NetworkTables. This value can be found under the table defined in the `path` setting, and under the value defined in the `key` setting.
+
+## GetNT
+
+We are currently working on a node to retrieve values from NetworkTables. You can view the progress on [this branch](https://github.com/opensight-cv/opensight/tree/feature/getnt). 

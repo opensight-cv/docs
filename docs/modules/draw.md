@@ -12,10 +12,10 @@ Uses a mask to select and output only the pixels of the input `img` that are whi
 
 ![DrawContours Node Image](../assets/images/modules/draw/node_draw_contours.png)
 
-Takes an image `img` and draws the `contours` inputted onto the image, outputting it.
+Takes an image `img` and draws the input `contours` onto the image.
 
 ## DrawFPS
 
 ![DrawFPS Node Image](../assets/images/modules/draw/node_draw_fps.png)
 
-This node puts the FPS (Frames per Second) of the video feed onto the `img` and outputs this updated image.
+This node draws the number of frames per second of onto the top left of input `img` and outputs the updated image.
