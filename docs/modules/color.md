@@ -24,7 +24,7 @@ The Blur node takes an input `img` and blurs the image to produce the output `im
 
 ![Canny Node Image](../assets/images/modules/colorops/node_canny.png)
 
-The Canny node takes an input `img` and detects edges in the image. The output is a black-and-white image with white pixels representing lines in the input image. The Canny node has a `threshold` value to set its sensitivity. Any edge that is stronger than the upper end of the threshold setting is automatically kept, and any edge between the lower and upper threshold is only kept if it is connected to an edge above the upper edge of the threshold. You can read more about the threshold setting [in this opencv tutorial](https://docs.opencv.org/3.4/da/d22/tutorial_py_canny.html).
+The Canny node takes an input `img` and detects edges in the image. The output is a black-and-white image with white pixels representing lines in the input image. The Canny node has a `threshold` value to set its sensitivity. Any edge that is stronger than the upper end of the threshold setting is automatically kept, and any edge between the lower and upper threshold is only kept if it is connected to an edge above the upper edge of the threshold. You can read more about the threshold setting [in this OpenCV tutorial](https://docs.opencv.org/master/da/d22/tutorial_py_canny.html).
 
 ## Clamp Min/Max
 
