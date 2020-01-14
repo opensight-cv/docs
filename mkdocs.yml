@@ -27,6 +27,7 @@ nav:
     - NetworkTables: modules/nt.md
   - Module Development:
     - Introduction: module-dev/intro.md
+    - Basic Template: module-dev/basic-template.md
     - Module Structure: module-dev/structure.md
     - Glossary: module-dev/glossary.md
   - Roadmap and Contributing: roadmap.md
