@@ -18,7 +18,7 @@ Finds and outputs the convex hull of each contour in the input `contours`. A con
 
 ![ContourApproximate Node Image](../assets/images/modules/contours/node_contour_approximate.png)
 
-This node approximates contours by reducing their number of points. It takes one perameter, `epsilon`, which is the maximum distance between the output contour and the input contour. This node works the same way as the OpenCV function [ApproxPolyDP](https://docs.opencv.org/2.4/modules/imgproc/doc/structural_analysis_and_shape_descriptors.html#approxpolydp).
+This node approximates contours by reducing their number of points. It takes one perameter, `epsilon`, which is the maximum distance between the output contour and the input contour. This node works the same way as the OpenCV function [ApproxPolyDP](https://docs.opencv.org/master/d3/dc0/group__imgproc__shape.html#ga0012a5fdaea70b8a9970165d98722b4c).
 
 ## FindCenter
 
