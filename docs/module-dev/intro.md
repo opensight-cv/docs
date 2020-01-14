@@ -10,9 +10,8 @@ Here's an example module, which does the following:
 ```python
 from dataclasses import dataclass
 
-import opsi.manager.cvwrapper as cvw
 from opsi.manager.manager_schema import Function
-from opsi.manager.types import Mat, MatBW
+from opsi.util.cv.mat import Mat, MatBW
 
 __package__ = "opsi.example_module"
 __version__ = "0.123"

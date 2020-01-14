@@ -6,7 +6,7 @@ Here is a basic module template you can you to get started:
 from dataclasses import dataclass
 
 from opsi.manager.manager_schema import Function
-from opsi.manager.types import Mat
+from opsi.util.cv.mat import Mat
 
 __package__ = "opsi.MODULE_NAME"
 __version__ = "0.XXX"
