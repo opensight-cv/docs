@@ -3,7 +3,7 @@ OpenSight primarily targets the Raspberry Pi, however, it can be run on numerous
 ## Hardware Configurations
 
 
-The Raspberry Pi (and other coprocessors, such as the Jetson Nano) require 5V, so if you are using OpenSight on a robot, you will need to step down from 12V to 5V. All configurations include an appropriate step down module.
+The Raspberry Pi (and other coprocessors) require 5V, so if you are using OpenSight on a robot, you will need to step down from 12V to 5V. All configurations include an appropriate step down module.
 
 Here are some recommended configurations at different price points. Each configuration inculdes a either typical or estimated performance. Any configurations with an estimated performance will be marked with a \*. If you have any of these configurations and want to submit performance figures, we would greatly appreciate it!
 
@@ -25,17 +25,6 @@ Here are some recommended configurations at different price points. Each configu
 | 16GB MicroSD Card                | https://amazon.com/dp/B073K14CVB | $5.79  |
 | HOMREE DC 12V to DC 5V (USB-C)   | https://amazon.com/dp/B07ZQB6S3L | $10.90 |
 | Total                            |                                  | **$80.66** |
-
-#### NVIDIA Jetson Nano <small>120+ FPS @ 320x240</small>*
-
-| Item                               | Link                              | Price   |
-|------------------------------------|-----------------------------------|---------|
-| NVIDIA Jetson Nano Development Kit | https://amazon.com/dp/B07PZHBDKT  | $98.95  |
-| Arducam 5*                         | https://amazon.com/dp/B012V1HEP4  | $12.99  |
-| 16GB MicroSD Card                  | https://amazon.com/dp/B073K14CVB  | $5.79   |
-| HOMREE DC 12V to DC 5V (Micro USB) | https://amazon.com/dp/B01MEESLZ6  | $9.99   |
-| Total                              |                                   | $127.72 |
-<small> \* Yes, cameras for Raspberry Pi work on the Jetson Nano</small>
 
 ## General Setup
 

@@ -1,4 +1,4 @@
-Depending on what system you are trying to install on, the process may differ. If you are installing on Raspberry Pi, go to the [appropriate section](#installing-on-raspberry-pi). If you are trying to install OpenSight on a different coprocessor, such as the Jetson Nano, you can find the process [here](#installing-on-debian-arm-systems).
+Depending on what system you are trying to install on, the process may differ. If you are installing on Raspberry Pi, go to the [appropriate section](#installing-on-raspberry-pi). If you are trying to install OpenSight on a different coprocessor, you can find the process [here](#installing-on-debian-arm-systems).
 Currently, OpenSight is only directly supported on Linux. It should still work on Windows or MacOS, however the process to do so is far too elaborate to explain here (requries compiling multiple Python libraries). To install on any other Linux system, you can follow the [other systems installation](#installing-on-other-systems).
 
 ## Installing on Raspberry Pi
@@ -22,7 +22,6 @@ If you have any issues, please join our [Discord](https://discord.gg/hPqpdsK), l
 You must install Debian on your coprocessor in order to continue with this section. If you are running a Debian ARM based system, you can use the same packages generated for the Raspberry Pi. If the output of `dpkg-architecture -q DEB_BUILD_ARCH` is `armhf`, you can use the following set of instructions. Types of systems that meet this requirement would be:
 
 * Raspberry Pi (without erasing anything on your current Raspbian installation)
-* Jetson Nano
 * Many coprocessors
 
 Here are the differences between using the packages and installing with the regular Linux script:
