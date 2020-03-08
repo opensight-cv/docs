@@ -39,7 +39,7 @@ url="$(curl https://api.github.com/repos/opensight-cv/packages/releases/latest |
 curl -LO $url
 mkdir -p packages
 tar xf opsi-packages-*.tar.gz -C packages
-suggests=$(dpkg-deb -I "/packages/deps/opensight_"*".deb" | grep Suggests | sed -e 's/ Suggests: //' -e 's/:.*$//g' -e 's/\n/ /g' -e 's/(/@/g' -e 's/)/@/g' -e 's/ @\([^@]*\)@//g' -e "s/,//g")
+suggests=$(dpkg-deb -I "./packages/deps/opensight_"*".deb" | grep Suggests | sed -e 's/ Suggests: //' -e 's/:.*$//g' -e 's/\n/ /g' -e 's/(/@/g' -e 's/)/@/g' -e 's/ @\([^@]*\)@//g' -e "s/,//g")
 sudo apt install -y ./packages/deps/*.deb $suggests
 rm -rf /tmp/opsi/
 reboot
